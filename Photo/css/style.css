@@ -1,0 +1,21 @@
+    .thumbnail {
+      position: relative;
+      overflow: visible;
+    }
+    .thumbnail img {
+      width: 210px;
+      height: 300px;
+      transition: transform 0.3s ease;
+    }
+    .thumbnail:hover img {
+      transform: scale(1.1);
+    }
+    .dropdown-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: none;
+    }
+    .thumbnail:hover .dropdown-badge {
+      display: block;
+    }
